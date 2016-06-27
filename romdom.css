@@ -7,3 +7,10 @@ background-image:url("https://i76.photobucket.com/albums/j23/haley_bates/cool2.j
 background-repeat:no-repeat;
 background-size:cover;
 }
+.romdom-header {
+  width:100%;
+  max-width:960px;
+  font:6em "Amatic SC", cursive;
+  color:#fff;
+  text-align:center;
+}
