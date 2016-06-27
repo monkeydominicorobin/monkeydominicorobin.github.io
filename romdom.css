@@ -1,0 +1,9 @@
+body,
+html {
+min-height:100%;
+}
+body { 
+background-image:url("http://i76.photobucket.com/albums/j23/haley_bates/cool2.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+}
