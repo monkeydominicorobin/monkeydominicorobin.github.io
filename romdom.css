@@ -3,6 +3,10 @@ html {
 min-height:100%;
 margin:0%;
 padding:0%;
+padding-top:0%;
+padding-bottom:0%;
+margin-top:0%;
+margin-bottom:0%;
 }
 .romdom-header {
   width:100%;
