@@ -1,6 +1,7 @@
 body,
 html {
 min-height:100%;
+min-width:100%;
 margin:0%;
 padding:0%;
 padding-top:0%;
@@ -9,13 +10,11 @@ margin-top:0%;
 margin-bottom:0%;
 }
 .romdom-header {
-  width:100%;
   font:6em "Amatic SC", cursive;
   color:#fff;
   text-align:center;
 }
 .romdom-header2{
-  width:100%;
   font:6em "Amatic SC", cursive;
   color:black;
   text-align:center;
