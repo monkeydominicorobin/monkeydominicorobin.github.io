@@ -2,6 +2,9 @@ body,
 html {
 min-height:100%;
 }
+div {
+  padding:0%;
+}
 .romdom-header {
   width:100%;
   max-width:960px;
