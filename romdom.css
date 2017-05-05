@@ -1,45 +1,63 @@
-body,
-html {
-min-height:100%;
-min-width:100%;
-margin:0%;
-padding:0%;
-padding-top:0%;
-padding-bottom:0%;
-margin-top:0%;
-margin-bottom:0%;
+nav{
+  font-family:Amatic SC, cursive;
+  position:relative;
+  margin:0;
+  padding:0;
 }
-.romdom-header {
-  font:6em "Amatic SC", cursive;
-  color:#fff;
+html, body{
+  overflow:auto;
+  overflow-x:hidden;
+  margin:0;
+  height:100%;
+  font-family:Amatic SC, cursive;
+  font-size:30px;
+}
+section{
+  position:relative;
+  margin:0 -9999rem;
+  padding:5.25rem 9999rem;
   text-align:center;
 }
-.romdom-header2{
-  font:6em "Amatic SC", cursive;
-  color:black;
-  text-align:center;
+#welsection{
+  background-color:darkred;
+  color:white;
 }
-.topshelf{
-  background-color:white;
-}
-.nxtfrmtopshelf{
-  background-image:url("https://i76.photobucket.com/albums/j23/haley_bates/cool2.jpg");
-  background-repeat:no-repeat;
-  background-size:cover;
-}
-.snxtfrmtopshelf{
-  background-image:url("https://i900.photobucket.com/albums/ac202/CatatonicChelseee/hahahahahahaha.jpg");
-background-repeat:no-repeat;
-background-size:cover;
-}
-.tnxtfrmtopshelf{
-background-image:url("https://i91.photobucket.com/albums/k287/honeydew_07/Color/color-14.jpg");
-background-repeat:no-repeat;
-background-size:cover;  
-}
-.portfolioshelf{
- background-color:#fff;
-}
-.bottomshelf{
+#abosection{
   background-color:black;
+  color:white;
+}
+#abosection p{
+  padding:0 250px;
+  text-align:left;
+}
+#skisection{
+  background-color:white;
+  color:black;
+}
+.sectionImg{
+  position:relative;
+  margin:0 -9999rem;
+  padding:5.25rem 9999rem;
+  text-align:center;
+}
+#worsection{
+  background-color:orange;
+  color:white;
+}
+#clisection{
+  background-color:red;
+  color:white;
+  
+  position:relative;
+  margin:0 -9999rem;
+  padding:.25rem 9999rem;
+  text-align:center;
+  padding-bottom:50px;
+}
+#consection{
+  background-color:blue;
+  color:white;
+}
+img{
+  padding:5px 5px 5px 5px;
 }
