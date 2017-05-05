@@ -4,6 +4,9 @@ nav{
   margin:0;
   padding:0;
 }
+.navbar{
+margin-bottom:0;
+}
 html, body{
   overflow:auto;
   overflow-x:hidden;
