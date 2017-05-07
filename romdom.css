@@ -8,6 +8,8 @@ html, body{
 }
 .navbar {
 margin-bottom: 0;
+position:relative;
+width:100%;
 }
 section{
   position:relative;
@@ -52,8 +54,9 @@ section{
   padding-bottom:50px;
 }
 #consection{
-  background-color:blue;
+  background-color:black;
   color:white;
+  padding:20px
 }
 img{
   padding:5px 5px 5px 5px;
