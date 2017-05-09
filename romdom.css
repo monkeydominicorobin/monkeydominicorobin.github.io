@@ -1,3 +1,8 @@
+.navbar{
+  margin-bottom:0;
+  position:relative;
+  width:100%;
+}
 html, body{
   overflow:auto;
   overflow-x:hidden;
@@ -5,11 +10,25 @@ html, body{
   height:100%;
   font-family:Amatic SC, cursive;
   font-size:30px;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
 }
-.navbar {
-margin-bottom: 0;
-position:relative;
-width:100%;
+img{
+  box-shadow:20px 20px 20px black;
+  border-radius:20%;
+  padding:5px 5px 5px 5px;
+}
+.block{
+  background:rgba(0,0,0,.4);
+  color:white;
+  padding:50px;
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:100px;
 }
 section{
   position:relative;
@@ -18,14 +37,19 @@ section{
   text-align:center;
 }
 #welsection{
-  background-color:darkred;
+  background-color:#2C3E50;
   color:white;
 }
 #abosection{
-  background-color:black;
+  background-image: url("http://unsplash.it/1000/490?image=1026");
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+  /*background-color:#3498db*/
   color:white;
 }
 #abosection p{
+  
   padding:0 250px;
   text-align:left;
 }
@@ -56,8 +80,4 @@ section{
 #consection{
   background-color:black;
   color:white;
-  padding:20px
-}
-img{
-  padding:5px 5px 5px 5px;
 }
